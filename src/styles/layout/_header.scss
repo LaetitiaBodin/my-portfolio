@@ -1,0 +1,45 @@
+header {
+    h1 {
+        @include title ($page_title);
+    }
+    div {
+        margin: 0 auto;
+        @include flex (column, center);
+        background-color: $white_primary;
+        color: $black;
+    }
+    p {
+        margin: $space_m auto;
+        padding: $space_s;
+    }
+    ul {
+        @include flex (row, space-around);
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 0 $space_l;
+        li {
+            @include flex (column, center);
+            width: 60px;
+        }
+        img {
+            @include rect_size (2rem);
+            margin: auto;
+        }
+        span {
+            margin: $space_s auto;
+            font-size: 12px;
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    header {
+        div {
+            max-width: 70%;
+        }
+        p, ul {
+            width: 500px;
+            max-width: 50%;
+        }
+    }
+}

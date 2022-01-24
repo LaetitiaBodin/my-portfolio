@@ -1,0 +1,21 @@
+footer {
+    @include flex (column, center);
+    background-color: $black;
+    color: $white_primary;
+    div {
+        @include flex (row, center);
+    }
+    p {
+        margin: $space_s;
+    }
+    a {
+        text-decoration: none;
+    }
+    svg {
+        margin: $space_s $space_l;
+        @include rect_size (3rem);
+        path {
+            transition: fill 0.5s;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@import 'base/fonts';
+@import 'base/palette';
+
+@import 'utils/variables';
+@import 'utils/mixins';
+
+@import 'vendors/reset';
+
+@import 'layout/body';
+@import 'layout/header';
+@import 'layout/main';
+@import 'components/card';
+@import 'layout/footer';
+@import 'components/footer-svg';

@@ -1,0 +1,13 @@
+// Intro
+$page_title : 3rem;
+
+// Card
+$card_title : 1.5rem;
+$card_content : 300px;
+$drawer_tip : 1.5rem;
+$drawer_content : calc(#{$card_content} - #{$drawer_tip});
+
+// Margins and padding
+$space_s : 0.5rem;
+$space_m : 1rem;
+$space_l : 2rem;

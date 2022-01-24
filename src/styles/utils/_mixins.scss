@@ -1,0 +1,69 @@
+@mixin flex ($dir, $justify, $wrap: nowrap) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $justify;
+    align-items: center;
+    flex-wrap: $wrap;
+}
+
+@mixin title ($font, $pad : $font / 2) {
+    font-family: 'mr_dafoe-regular', cursive;
+    font-weight: bold;
+    font-size: $font;
+    background-color: $black;
+    color: $white_primary;
+    padding: $pad 0rem;
+    width: 100%;
+}
+
+@mixin rect_size ($width, $height : auto){
+    width: $width;
+    height: $height;
+}
+
+@mixin card_size ($height : $card_content) {
+    width: $card_content;
+    height: $height;
+    max-width: 90vw;
+}
+
+@mixin box_shadow {
+    box-shadow: 
+        inset 0px  12px 6px -10px $black,
+        inset 0px -12px 6px -10px $black
+}
+
+@mixin background ($url) {
+    background-image: url($url);
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: border-box;
+}
+
+@mixin drawer ($dir) {
+    @if $dir == 'up' {
+        top: 0px;              
+        div:nth-child(1) {
+            background-color: $white_primary;
+            svg {
+                transform: rotateZ(180deg);
+                fill: $black;
+            }
+        }
+        div:nth-child(2) {
+            background-color: $black;
+        }
+    } @else {
+        top: $drawer_content;           
+        div:nth-child(1) {
+            background-color: $black;
+            svg {
+                transform: rotateZ(0deg);
+                fill: $white_primary;
+            }
+        }
+        div:nth-child(2) {
+            background-color: $white_primary;
+        }
+    }
+}

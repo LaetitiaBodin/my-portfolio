@@ -1,0 +1,9 @@
+#root {
+    @include background ('/public/assets/backgrounds/background.jpg');
+    min-height: 100vh;
+}
+
+body * {
+    text-align: center;
+    font-family: 'montserrat-regular', sans-serif;
+}

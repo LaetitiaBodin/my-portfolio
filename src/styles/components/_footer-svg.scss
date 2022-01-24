@@ -1,0 +1,51 @@
+.icon__git {
+    .front {
+        fill: $magenta;
+    }
+    .back {
+        fill: $blue_primary;
+    }
+    &:hover {
+        .front {
+            fill: $blue_primary;
+        }
+        .back {
+            fill: $magenta;
+        }
+    }
+}
+
+.icon__cv {
+    .frame {
+        fill: $blue_primary;
+    }
+    .back {
+        fill: $white_primary;
+    }
+    .rect_l {
+        fill: $blue_secondary;
+    }
+    .rect_s {
+        fill: $yellow;
+    }
+    .pic {
+        fill: $magenta;
+    }
+    &:hover {
+        .frame {
+            fill: $white_primary;
+        }
+        .back {
+            fill: $blue_secondary;
+        }
+        .rect_l {
+            fill: $blue_primary;
+        }
+        .rect_s {
+            fill: $magenta;
+        }
+        .pic {
+            fill: $yellow;
+        }
+    }
+}

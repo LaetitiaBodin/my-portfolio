@@ -1,0 +1,12 @@
+main {
+    background-color: $white_secondary;
+    @include flex (row, space-around, wrap);
+    margin: 0 auto;
+    padding-bottom: $space_m;
+}
+
+@media all and (min-width: 768px) {
+    main {
+        max-width: 70%;
+    }
+}
