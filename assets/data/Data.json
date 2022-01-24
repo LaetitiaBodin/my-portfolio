@@ -1,0 +1,191 @@
+[
+    {
+        "id" : "1",
+        "name" : "My Github",
+        "link" : "https://laetitiabodin.github.io/my-github/",
+        "srcset" : {
+            "1920w" : "assets/screens/my-github/my-github--0.jpg",
+            "1440w" : "assets/screens/my-github/my-github--1.jpg",
+            "960w"  : "assets/screens/my-github/my-github--2.jpg",
+            "480w"  : "assets/screens/my-github/my-github--3.jpg"
+        },
+        "desc" : [
+            "Présentation de l'aperçu de mon compte Github public.",
+            "Utilisation de l'API Github sans token pour accéder aux données qui transitent par le local storage du navigateur pour être triées.",
+            "Présentation des langages que j'utilise dans mes projets publiés, mes dépôts publics ainsi que des liens vers leurs déploiements sur Github.",
+            "Utilisation de fonctions asynchrones pour optimiser le temps de chargement."
+        ],
+        "stack" : ["css", "html", "javascript", "reactjs", "sass"]
+    },
+    {
+        "id" : "2",
+        "name" : "Aliens",
+        "link" : "https://laetitiabodin.github.io/aliens/",
+        "srcset" : {
+            "1920w" : "assets/screens/aliens/aliens--0.jpg",
+            "1440w" : "assets/screens/aliens/aliens--1.jpg",
+            "960w"  : "assets/screens/aliens/aliens--2.jpg",
+            "480w"  : "assets/screens/aliens/aliens--3.jpg"
+        },
+        "desc" : [
+            "Jeu vidéo.",
+            "Esprit \"jeu d'arcade\".",
+            "2 joueurs.",
+            "Chaque joueur choisit un personnage et joue à tour de rôle sur le même écran.",
+            "Des animations sont réalisées en Javascript (Vanilla, Jquery) et CSS pour les choix des joueurs, les réactions des personnages et les transitions entre les tableaux."
+        ],
+        "stack" : ["css", "html", "javascript", "jquery", "sass"]
+    },
+    {
+        "id" : "3",
+        "name" : "Tic-Tac-Toe",
+        "link" : "https://laetitiabodin.github.io/tic-tac-toe-custom/",
+        "srcset" : {
+            "1920w" : "assets/screens/tic-tac-toe/tic-tac-toe--0.jpg",
+            "1440w" : "assets/screens/tic-tac-toe/tic-tac-toe--1.jpg",
+            "960w"  : "assets/screens/tic-tac-toe/tic-tac-toe--2.jpg",
+            "480w"  : "assets/screens/tic-tac-toe/tic-tac-toe--3.jpg"
+        },
+        "desc" : [
+            "Jeu de Morpion.",
+            "2 joueurs.",
+            "Les joueurs peuvent choisir la taille de la grille (de 3x3 à 10x10 cases).",
+            "Chaque joueur joue à tour de rôle sur le même écran.",
+            "Le premier utilise une croix pour marquer son choix, le deuxième un cercle.",
+            "Lorsqu'une case est jouée, une animation indique le symbole du joueur grâce à l'API canvas du navigateur.",
+            "Quand un joueur a réussi à aligner ses symboles sur une ligne ou que toutes les cases ont été jouées sans qu'aucun n'y arrive, le jeu est fini."
+        ],
+        "stack" : ["css", "html", "javascript", "reactjs", "sass"]
+    },
+    {
+        "id" : "4",
+        "name" : "Bouncing Ball",
+        "link" : "https://laetitiabodin.github.io/bouncing-ball/",
+        "srcset" : {
+            "1920w" : "assets/screens/bouncing-ball/bouncing-ball--0.jpg",
+            "1440w" : "assets/screens/bouncing-ball/bouncing-ball--1.jpg",
+            "960w"  : "assets/screens/bouncing-ball/bouncing-ball--2.jpg",
+            "480w"  : "assets/screens/bouncing-ball/bouncing-ball--3.jpg"
+        },
+        "desc" : [
+            "Animation sur API canvas du navigateur inspirée par le jeu de pong.",
+            "Une balle stylée en 3D rebondit sur les 4 côtés du cadre.",
+            "Lorsqu'elle rebondit, le côté change de couleur brièvement pour le signaler.",
+            "La vitesse peut être réglée (plus vite ou plus lentement).",
+            "L'animation peut être arrêtée ou mise en route."
+        ],
+        "stack" : ["css", "html", "javascript"]
+    },
+    {
+        "id" : "5",
+        "name" : "Counting Valleys",
+        "link" : "https://laetitiabodin.github.io/counting-valleys-and-mountains/",
+        "srcset" : {
+            "1920w" : "assets/screens/counting-valleys/counting-valleys--0.jpg",
+            "1440w" : "assets/screens/counting-valleys/counting-valleys--1.jpg",
+            "960w"  : "assets/screens/counting-valleys/counting-valleys--2.jpg",
+            "480w"  : "assets/screens/counting-valleys/counting-valleys--3.jpg"
+        },
+        "desc" : [
+            "Interface graphique pour un exercice d'algorithmique proposé par le site HackerRank (\"Counting Valleys\").",
+            "D'après une suite de directions données, il faut déterminer combien de vallées et montagnes ont été traversées.",
+            "L'application permet à la fois de trouver la réponse au problème et visualiser le parcours du randonneur.",
+            "L'utilisateur peut, au choix, visualiser les résultats des cas de tests ou de ses propres cas."
+        ],
+        "stack" : ["css", "html", "javascript", "jquery"]
+    },
+    {
+        "id" : "6",
+        "name" : "Hangman",
+        "link" : "https://laetitiabodin.github.io/hangman/",
+        "srcset" : {
+            "1920w" : "assets/screens/hangman/hangman--0.jpg",
+            "1440w" : "assets/screens/hangman/hangman--1.jpg",
+            "960w"  : "assets/screens/hangman/hangman--2.jpg",
+            "480w"  : "assets/screens/hangman/hangman--3.jpg"
+        },
+        "desc" : [
+            "Jeu du pendu.",
+            "1 joueur.",
+            "Le joueur doit découvrir le mot secret (de 4 à 8 lettres, en anglais).",
+            "A chaque bonne proposition, la lettre proposée est insérée à sa(ses) place(s) dans le mot.",
+            "A chaque mauvaise proposition, une animation fait avancer le dessin du pendu grâce à l'API canvas du navigateur.",
+            "A la fin du jeu, le mot est dévoilé et un lien vers sa définition est donné."
+        ],
+        "stack" : ["css", "html", "javascript", "sass"]
+    },
+    {
+        "id" : "7",
+        "name" : "Roman Numerals Converter",
+        "link" : "https://laetitiabodin.github.io/roman-numerals-converter/",
+        "srcset" : {
+            "1920w" : "assets/screens/roman-numerals-converter/roman-numerals-converter--0.jpg",
+            "1440w" : "assets/screens/roman-numerals-converter/roman-numerals-converter--1.jpg",
+            "960w"  : "assets/screens/roman-numerals-converter/roman-numerals-converter--2.jpg",
+            "480w"  : "assets/screens/roman-numerals-converter/roman-numerals-converter--3.jpg"
+        },
+        "desc" : [
+            "Convertisseur de nombres romains.",
+            "Possibilité de convertir les nombres romains en nombres modernes et vice versa (de 1 à 4999).",
+            "Utilisation d'expressions régulières (regex) pour éviter les mauvaises entrées et faciliter la lecture des nombres modernes (séparateur de milliers)."
+        ],
+        "stack" : ["css", "html", "javascript"]
+    },
+    {
+        "id" : "8",
+        "name" : "Guess The Number",
+        "link" : "https://laetitiabodin.github.io/guess-the-number/",
+        "srcset" : {
+            "1920w" : "assets/screens/guess-the-number/guess-the-number--0.jpg",
+            "1440w" : "assets/screens/guess-the-number/guess-the-number--1.jpg",
+            "960w"  : "assets/screens/guess-the-number/guess-the-number--2.jpg",
+            "480w"  : "assets/screens/guess-the-number/guess-the-number--3.jpg"
+        },
+        "desc" : [
+            "Jeu vidéo de hasard.",
+            "1 joueur.",
+            "Le joueur doit découvrir le numéro secret en faisant des propositions (jusqu'à 20).",
+            "3 niveaux sont disponibles (facile, moyen et difficile).",
+            "Les scores (parties gagnées, perdues et jouées au total) sont conservées dans le local storage du navigateur."
+        ],
+        "stack" : ["bootstrap", "css", "html", "javascript"]
+    },
+    {
+        "id" : "9",
+        "name" : "Gîte de Masaka",
+        "link" : "https://laetitiabodin.github.io/gite-de-masaka/",
+        "srcset" : {
+            "1920w" : "assets/screens/gite-de-masaka/gite-de-masaka--0.jpg",
+            "1440w" : "assets/screens/gite-de-masaka/gite-de-masaka--1.jpg",
+            "960w"  : "assets/screens/gite-de-masaka/gite-de-masaka--2.jpg",
+            "480w"  : "assets/screens/gite-de-masaka/gite-de-masaka--3.jpg"
+        },
+        "desc" : [
+            "Réservation de séjour dans un gîte forestier fictif.",
+            "Site multipage réalisé en Javascript (Vanilla) et CSS (Bootstrap).",
+            "Adaptatif écran large, moyen et petit (menu burger)",
+            "Utilisation de photos libres de droits et logo créé pour le projet.", 
+            "Ceci est un prototype."
+        ],
+        "stack" : ["bootstrap", "css", "html", "javascript"]
+    },
+    {
+        "id" : "10",
+        "name" : "Maconnerie Dumert",
+        "link" : "https://laetitiabodin.github.io/maconnerie-dumert/",
+        "srcset" : {
+            "1920w" : "assets/screens/maconnerie-dumert/maconnerie-dumert--0.jpg",
+            "1440w" : "assets/screens/maconnerie-dumert/maconnerie-dumert--1.jpg",
+            "960w"  : "assets/screens/maconnerie-dumert/maconnerie-dumert--2.jpg",
+            "480w"  : "assets/screens/maconnerie-dumert/maconnerie-dumert--3.jpg"
+        },
+        "desc" : [
+            "Site vitrine pour une société de maçonnerie.",
+            "Site multipage réalisé en Javascript (Vanilla) et CSS.",
+            "Adaptatif écran large, moyen et petit (media queries).",
+            "Utilisation de photos libres de droits et logo créé pour le projet.", 
+            "Ceci est un prototype."
+        ],
+        "stack" : ["css", "html", "javascript", "sass"]
+    }
+]
