@@ -1,24 +1,18 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.fb2541f5.css",
-    "main.js": "/my-portfolio/static/js/main.9032e87c.js",
-    "static/media/montserrat-regular.svg": "/my-portfolio/static/media/montserrat-regular.e8821ceb998f2a30534b.svg",
-    "static/media/background.jpg": "/my-portfolio/static/media/background.0ecdf16bd0ccf9abfda5.jpg",
-    "static/media/mr_dafoe-regular.svg": "/my-portfolio/static/media/mr_dafoe-regular.5e803c3395d858acb05b.svg",
-    "static/media/montserrat-regular.eot": "/my-portfolio/static/media/montserrat-regular.43945d67727fa1f2a318.eot",
-    "static/media/montserrat-regular.ttf": "/my-portfolio/static/media/montserrat-regular.d02df1f602bf2c0e264e.ttf",
-    "static/media/mr_dafoe-regular.eot": "/my-portfolio/static/media/mr_dafoe-regular.bf34e4950c5ba00924af.eot",
-    "static/media/mr_dafoe-regular.ttf": "/my-portfolio/static/media/mr_dafoe-regular.2648ea28b12982e6bddf.ttf",
-    "static/media/montserrat-regular.woff": "/my-portfolio/static/media/montserrat-regular.b6afe870084bff5712df.woff",
-    "static/media/mr_dafoe-regular.woff": "/my-portfolio/static/media/mr_dafoe-regular.642427912de8e9186d2b.woff",
-    "static/media/mr_dafoe-regular.woff2": "/my-portfolio/static/media/mr_dafoe-regular.4e234b06b13e21b2be47.woff2",
-    "static/media/montserrat-regular.woff2": "/my-portfolio/static/media/montserrat-regular.fd27939f892b1283361c.woff2",
+    "main.css": "/my-portfolio/static/css/main.8ad5a7de.css",
+    "main.js": "/my-portfolio/static/js/main.a0f66582.js",
+    "static/media/raleway-regular.svg": "/my-portfolio/static/media/raleway-regular.a917448737df1d53a1d5.svg",
+    "static/media/raleway-regular.eot": "/my-portfolio/static/media/raleway-regular.b466b343be9459a998c8.eot",
+    "static/media/raleway-regular.ttf": "/my-portfolio/static/media/raleway-regular.0b6f8f1e0fd0927f0526.ttf",
+    "static/media/raleway-regular.woff": "/my-portfolio/static/media/raleway-regular.da55e47ea25c3e8eed18.woff",
+    "static/media/raleway-regular.woff2": "/my-portfolio/static/media/raleway-regular.a94d0d7571b9fa52de76.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.fb2541f5.css.map": "/my-portfolio/static/css/main.fb2541f5.css.map",
-    "main.9032e87c.js.map": "/my-portfolio/static/js/main.9032e87c.js.map"
+    "main.8ad5a7de.css.map": "/my-portfolio/static/css/main.8ad5a7de.css.map",
+    "main.a0f66582.js.map": "/my-portfolio/static/js/main.a0f66582.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb2541f5.css",
-    "static/js/main.9032e87c.js"
+    "static/css/main.8ad5a7de.css",
+    "static/js/main.a0f66582.js"
   ]
 }
