@@ -1,51 +1,51 @@
 .icon__git {
     .front {
-        fill: $magenta;
+        fill: $newgreylight;
     }
     .back {
-        fill: $blue_primary;
+        fill: $white_primary;
     }
     &:hover {
         .front {
-            fill: $blue_primary;
+            fill: $white_primary;
         }
         .back {
-            fill: $magenta;
+            fill: $newgreylight;
         }
     }
 }
 
 .icon__cv {
     .frame {
-        fill: $blue_primary;
-    }
-    .back {
         fill: $white_primary;
     }
+    .back {
+        fill: $newgreylight;
+    }
     .rect_l {
-        fill: $blue_secondary;
+        fill: $white_primary;
     }
     .rect_s {
-        fill: $yellow;
+        fill: $white_primary;
     }
     .pic {
-        fill: $magenta;
+        fill: $white_primary;
     }
     &:hover {
         .frame {
-            fill: $white_primary;
+            fill: $newgreylight;
         }
         .back {
-            fill: $blue_secondary;
+            fill: $white_primary;
         }
         .rect_l {
-            fill: $blue_primary;
+            fill: $newgreylight;
         }
         .rect_s {
-            fill: $magenta;
+            fill: $newgreylight;
         }
         .pic {
-            fill: $yellow;
+            fill: $newgreylight;
         }
     }
 }

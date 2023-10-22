@@ -1,6 +1,6 @@
 footer {
     @include flex (column, center);
-    background-color: $black;
+    background-color: $newblue;
     color: $white_primary;
     div {
         @include flex (row, center);

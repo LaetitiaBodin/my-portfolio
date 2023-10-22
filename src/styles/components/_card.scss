@@ -3,6 +3,7 @@
         @include card_size (auto);
         @include flex (column, center);
         margin-top: $space_m;
+        border: 1px solid $newblue;
         h2 {
             @include title ($card_title);
         }
@@ -28,15 +29,13 @@
         a {
             text-decoration: none;
             font-weight: bold;
-            padding: 1rem;
-            transition: all 0.5s linear;
-            color: $black;
-            background-color: $white_primary;
-            border: 2px outset $black;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s linear;
+            background-color: $newblue;
+            color: $white_primary;
             &:hover, &:active {
+                background-color: $newgreylight;
                 color: $white_primary;
-                background-color: $black;
-                border: 2px outset $white_primary;
             }
         }
     }
@@ -83,7 +82,7 @@
             background-color: $blue_primary;
         }
         &::-webkit-scrollbar-track {
-            background-color: $black;
+            background-color: $newtaupe;
         }
     }
     &__stack {

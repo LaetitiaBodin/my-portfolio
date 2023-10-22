@@ -1,19 +1,10 @@
 @font-face {
-  font-family: 'mr_dafoe-regular';
-  src: url("base/fonts/mr-dafoe/mr_dafoe-regular.eot");
-  src: url("base/fonts/mr-dafoe/mr_dafoe-regular.eot?#iefix") format("embedded-opentype"), url("base/fonts/mr-dafoe/mr_dafoe-regular.woff2") format("woff2"), url("base/fonts/mr-dafoe/mr_dafoe-regular.woff") format("woff"), url("base/fonts/mr-dafoe/mr_dafoe-regular.ttf") format("truetype"), url("base/fonts/mr-dafoe/mr_dafoe-regular.svg#mr_dafoeregular") format("svg");
+  font-family: "Raleway";
+  src: url("base/fonts/raleway/raleway-regular.eot");
+  src: url("base/fonts/raleway/raleway-regular.eot?#iefix") format("embedded-opentype"), url("base/fonts/raleway/raleway-regular.woff2") format("woff2"), url("base/fonts/raleway/raleway-regular.woff") format("woff"), url("base/fonts/raleway/raleway-regular.ttf") format("truetype"), url("base/fonts/raleway/raleway-regular.svg#ralewayregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'montserrat-regular';
-  src: url("base/fonts/montserrat/montserrat-regular.eot");
-  src: url("base/fonts/montserrat/montserrat-regular.eot?#iefix") format("embedded-opentype"), url("base/fonts/montserrat/montserrat-regular.woff2") format("woff2"), url("base/fonts/montserrat/montserrat-regular.woff") format("woff"), url("base/fonts/montserrat/montserrat-regular.ttf") format("truetype"), url("base/fonts/montserrat/montserrat-regular.svg#montserratregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -59,7 +50,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -69,28 +60,23 @@ table {
 }
 
 #root {
-  background-image: url("/public/assets/backgrounds/background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-clip: border-box;
+  background-color: #FFFFFF;
   min-height: 100vh;
 }
 
 body * {
   text-align: center;
-  font-family: 'montserrat-regular', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 header h1 {
-  font-family: 'mr_dafoe-regular', cursive;
   font-weight: bold;
   font-size: 3rem;
-  background-color: #000000;
+  background-color: #0A4E60;
   color: #FFFFFF;
   padding: 1.5rem 0rem;
   width: 100%;
 }
-
 header div {
   margin: 0 auto;
   display: -webkit-box;
@@ -111,12 +97,10 @@ header div {
   background-color: #FFFFFF;
   color: #000000;
 }
-
 header p {
   margin: 1rem auto;
   padding: 0.5rem;
 }
-
 header ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,7 +121,6 @@ header ul {
   margin: 0 auto;
   padding: 0 2rem;
 }
-
 header ul li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,30 +139,18 @@ header ul li {
       flex-wrap: nowrap;
   width: 60px;
 }
-
 header ul img {
   width: 2rem;
   height: auto;
   margin: auto;
 }
-
 header ul span {
   margin: 0.5rem auto;
   font-size: 12px;
 }
 
-@media all and (min-width: 768px) {
-  header div {
-    max-width: 70%;
-  }
-  header p, header ul {
-    width: 500px;
-    max-width: 50%;
-  }
-}
-
 main {
-  background-color: #FFFFFF50;
+  background-color: rgba(255, 255, 255, 0.3137254902);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,7 +174,6 @@ main {
     max-width: 70%;
   }
 }
-
 .card__block {
   width: 300px;
   height: auto;
@@ -224,25 +194,22 @@ main {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   margin-top: 1rem;
+  border: 1px solid #0A4E60;
 }
-
 .card__block h2 {
-  font-family: 'mr_dafoe-regular', cursive;
   font-weight: bold;
-  font-size: 1.5rem;
-  background-color: #000000;
+  font-size: 1.3rem;
+  background-color: #0A4E60;
   color: #FFFFFF;
-  padding: 0.75rem 0rem;
+  padding: 0.65rem 0rem;
   width: 100%;
 }
-
 .card__info {
   width: 300px;
   height: 300px;
   max-width: 90vw;
   overflow: hidden;
 }
-
 .card__base {
   width: 300px;
   height: 300px;
@@ -251,7 +218,6 @@ main {
   position: absolute;
   z-index: 1;
 }
-
 .card__base div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,31 +237,25 @@ main {
   height: calc(300px - 1.5rem);
   max-width: 90vw;
 }
-
 .card__base img {
   width: 90%;
   height: auto;
   border: 2px outset #000000;
   background-color: #000000;
 }
-
 .card__base a {
   text-decoration: none;
   font-weight: bold;
-  padding: 1rem;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-  color: #000000;
-  background-color: #FFFFFF;
-  border: 2px outset #000000;
-}
-
-.card__base a:hover, .card__base a:active {
+  padding: 0.5rem 1rem;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background-color: #0A4E60;
   color: #FFFFFF;
-  background-color: #000000;
-  border: 2px outset #FFFFFF;
 }
-
+.card__base a:hover, .card__base a:active {
+  background-color: #706F6F;
+  color: #FFFFFF;
+}
 .card__drawer {
   width: 300px;
   height: 300px;
@@ -305,12 +265,10 @@ main {
   transition: all 1s linear;
   z-index: 10;
 }
-
 .card__drawer div, .card__drawer svg {
   -webkit-transition: all 1s linear;
   transition: all 1s linear;
 }
-
 .card__drawer__tip {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -331,52 +289,41 @@ main {
   height: 1.5rem;
   max-width: 90vw;
 }
-
 .card__drawer__tip:hover {
   cursor: pointer;
 }
-
 .card__drawer__tip svg {
   width: calc(1.5rem - 4px);
   height: auto;
 }
-
 .card__drawer.default, .card__drawer.closed {
   top: calc(300px - 1.5rem);
 }
-
 .card__drawer.default div:nth-child(1), .card__drawer.closed div:nth-child(1) {
-  background-color: #000000;
+  background-color: #0A4E60;
 }
-
 .card__drawer.default div:nth-child(1) svg, .card__drawer.closed div:nth-child(1) svg {
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
   fill: #FFFFFF;
 }
-
 .card__drawer.default div:nth-child(2), .card__drawer.closed div:nth-child(2) {
   background-color: #FFFFFF;
 }
-
 .card__drawer.open {
   top: 0px;
 }
-
 .card__drawer.open div:nth-child(1) {
   background-color: #FFFFFF;
 }
-
 .card__drawer.open div:nth-child(1) svg {
   -webkit-transform: rotateZ(180deg);
           transform: rotateZ(180deg);
-  fill: #000000;
+  fill: #0A4E60;
 }
-
 .card__drawer.open div:nth-child(2) {
-  background-color: #000000;
+  background-color: #0A4E60;
 }
-
 .card__drawer__info {
   width: 300px;
   height: calc(300px - 1.5rem);
@@ -397,7 +344,6 @@ main {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
-
 .card__description {
   width: auto;
   height: calc(calc(300px - 1.5rem) - 1rem);
@@ -408,19 +354,15 @@ main {
   background-color: #FFFFFF;
   overflow-y: scroll;
 }
-
 .card__description::-webkit-scrollbar {
   width: 6px;
 }
-
 .card__description::-webkit-scrollbar-thumb {
   background-color: #276D85;
 }
-
 .card__description::-webkit-scrollbar-track {
-  background-color: #000000;
+  background-color: #CBB28E;
 }
-
 .card__stack {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -439,7 +381,6 @@ main {
   width: 100%;
   margin-bottom: 1.5rem;
 }
-
 .card__stack img {
   width: 2rem;
   height: auto;
@@ -461,10 +402,9 @@ footer {
           align-items: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  background-color: #000000;
+  background-color: #0A4E60;
   color: #FFFFFF;
 }
-
 footer div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -482,78 +422,62 @@ footer div {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
-
 footer p {
   margin: 0.5rem;
 }
-
 footer a {
   text-decoration: none;
 }
-
 footer svg {
   margin: 0.5rem 2rem;
   width: 3rem;
   height: auto;
 }
-
 footer svg path {
   -webkit-transition: fill 0.5s;
   transition: fill 0.5s;
 }
 
 .icon__git .front {
-  fill: #8C295D;
+  fill: #706F6F;
 }
-
 .icon__git .back {
-  fill: #276D85;
+  fill: #FFFFFF;
 }
-
 .icon__git:hover .front {
-  fill: #276D85;
+  fill: #FFFFFF;
 }
-
 .icon__git:hover .back {
-  fill: #8C295D;
+  fill: #706F6F;
 }
 
 .icon__cv .frame {
-  fill: #276D85;
+  fill: #FFFFFF;
 }
-
 .icon__cv .back {
-  fill: #FFFFFF;
+  fill: #706F6F;
 }
-
 .icon__cv .rect_l {
-  fill: #3ABEE7;
-}
-
-.icon__cv .rect_s {
-  fill: #E6E938;
-}
-
-.icon__cv .pic {
-  fill: #8C295D;
-}
-
-.icon__cv:hover .frame {
   fill: #FFFFFF;
 }
-
+.icon__cv .rect_s {
+  fill: #FFFFFF;
+}
+.icon__cv .pic {
+  fill: #FFFFFF;
+}
+.icon__cv:hover .frame {
+  fill: #706F6F;
+}
 .icon__cv:hover .back {
-  fill: #3ABEE7;
+  fill: #FFFFFF;
 }
-
 .icon__cv:hover .rect_l {
-  fill: #276D85;
+  fill: #706F6F;
 }
-
 .icon__cv:hover .rect_s {
-  fill: #8C295D;
+  fill: #706F6F;
 }
-
 .icon__cv:hover .pic {
-  fill: #E6E938;
+  fill: #706F6F;
 }

@@ -31,15 +31,3 @@ header {
         }
     }
 }
-
-@media all and (min-width: 768px) {
-    header {
-        div {
-            max-width: 70%;
-        }
-        p, ul {
-            width: 500px;
-            max-width: 50%;
-        }
-    }
-}

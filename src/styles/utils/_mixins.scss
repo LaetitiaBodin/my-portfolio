@@ -7,10 +7,9 @@
 }
 
 @mixin title ($font, $pad : $font / 2) {
-    font-family: 'mr_dafoe-regular', cursive;
     font-weight: bold;
     font-size: $font;
-    background-color: $black;
+    background-color: $newblue;
     color: $white_primary;
     padding: $pad 0rem;
     width: 100%;
@@ -47,16 +46,16 @@
             background-color: $white_primary;
             svg {
                 transform: rotateZ(180deg);
-                fill: $black;
+                fill: $newblue;
             }
         }
         div:nth-child(2) {
-            background-color: $black;
+            background-color: $newblue;
         }
     } @else {
         top: $drawer_content;           
         div:nth-child(1) {
-            background-color: $black;
+            background-color: $newblue;
             svg {
                 transform: rotateZ(0deg);
                 fill: $white_primary;
